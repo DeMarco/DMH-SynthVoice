@@ -9,6 +9,324 @@
 		(company "DMH Instruments")
 	)
 	(lib_symbols
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output_v2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm Output"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_v2_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_v2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SynthStuff:MountingHole_Pot"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pot Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pot_Cutout_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pot_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pot_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SynthStuff:MountingHole_Rails"
 			(pin_numbers
 				(hide yes)
@@ -97,6 +415,109 @@
 			(symbol "MountingHole_Rails_1_1"
 				(pin input line
 					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SynthStuff:MountingHole_ToggleSwitch"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switch Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -343,6 +764,90 @@
 		)
 	)
 	(junction
+		(at 76.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c257e3-7c88-4446-afb6-c4bd648ec36b")
+	)
+	(junction
+		(at 25.4 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1253f867-0f78-4319-bf71-2161e040d731")
+	)
+	(junction
+		(at 38.1 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f010e2-ab16-40ce-8373-5baaae85a3ac")
+	)
+	(junction
+		(at 25.4 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a2edf4e-ad42-42e5-80fc-5c6ebfde85a8")
+	)
+	(junction
+		(at 25.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4487e309-6e1d-4753-a3c3-83f82c04524d")
+	)
+	(junction
+		(at 76.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f97d5e-60db-4c6d-830a-0e0383ccfcd9")
+	)
+	(junction
+		(at 25.4 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a7cf32-fb47-498e-bee3-630c54b38c4f")
+	)
+	(junction
+		(at 107.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e00714-88de-4610-bf44-1417719c6108")
+	)
+	(junction
+		(at 57.15 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ab14e3-d81d-412c-a0ab-06e7c083e044")
+	)
+	(junction
+		(at 133.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68736885-2bb8-471c-8e13-de0bd11eb5ac")
+	)
+	(junction
+		(at 76.2 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8698e56d-efcb-47ee-951d-0589cb00dd16")
+	)
+	(junction
+		(at 82.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d31900c-e33d-45d2-985b-6fd1e1a3a137")
+	)
+	(junction
+		(at 25.4 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dff72db-51d5-4763-947a-98994724b04b")
+	)
+	(junction
+		(at 38.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3b39b1-92fd-4d64-a985-7b43fc4e2d03")
+	)
+	(junction
 		(at 27.94 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -355,16 +860,130 @@
 		(uuid "99fbf2df-b71d-4d9c-9bc0-323864cd4cb7")
 	)
 	(junction
+		(at 114.3 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b3d6fa-10e9-4c9f-a603-7f4f3d88b0ae")
+	)
+	(junction
 		(at 48.26 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c283b2-1070-485f-9247-b62af3291c37")
 	)
 	(junction
+		(at 25.4 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b730305e-f205-458f-b101-1d31943c3e39")
+	)
+	(junction
+		(at 38.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b97e2b47-304d-4723-8ad7-829640fd0f86")
+	)
+	(junction
 		(at 27.94 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b942ae-d88d-40bf-b11e-c3792fb96421")
+	)
+	(junction
+		(at 76.2 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c14c45b7-6a61-44e4-9e08-b3e9d06e7d67")
+	)
+	(junction
+		(at 25.4 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c245c812-c10a-4acd-8595-3bb2b76abcad")
+	)
+	(junction
+		(at 25.4 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db289409-90fe-4cdb-be77-390569215006")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df09784d-6b13-432e-b3df-5af3683b0928")
+	)
+	(junction
+		(at 25.4 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1135c8f-4556-47fd-bf7c-5832762cf7e2")
+	)
+	(junction
+		(at 38.1 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb589674-d5b0-4588-9dde-61cd0828a36c")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019e8dfe-7ae7-407b-bdbc-f7dd4fb81aa3")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051665f3-a616-424f-b6d2-41d7e0e5e370")
+	)
+	(wire
+		(pts
+			(xy 25.4 171.45) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0516d9d7-e581-4798-8228-35286a1af83a")
+	)
+	(wire
+		(pts
+			(xy 25.4 184.15) (xy 25.4 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0717f1c7-f6b4-4dfe-9166-de8b9a6c4cda")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096c3840-f381-414c-badf-eb504b4b1a34")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfe4d77-d0d7-4ff0-afdf-8be954372121")
 	)
 	(wire
 		(pts
@@ -375,6 +994,36 @@
 			(type default)
 		)
 		(uuid "1163b56e-6e6e-4536-b740-8087791b5bdd")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 25.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120aa342-e2a0-4757-bff1-675b172340d9")
+	)
+	(wire
+		(pts
+			(xy 25.4 158.75) (xy 25.4 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb646b5-ce5f-4937-8a44-e7bc7a501743")
+	)
+	(wire
+		(pts
+			(xy 38.1 181.61) (xy 38.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6572ea-1393-431f-bcf0-af484a47f065")
 	)
 	(wire
 		(pts
@@ -408,6 +1057,46 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 67.31) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3697ac3f-bf1f-4984-974f-4d30822401ce")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387ad359-462f-476f-a413-0291204a696b")
+	)
+	(wire
+		(pts
+			(xy 25.4 196.85) (xy 25.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aded6d2-4224-4a46-8d44-1009fafc1d7e")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0d6502-d451-4c3a-81fc-049c27fa16f4")
+	)
+	(wire
+		(pts
 			(xy 48.26 269.24) (xy 48.26 273.05)
 		)
 		(stroke
@@ -415,6 +1104,126 @@
 			(type default)
 		)
 		(uuid "408eb959-b5a5-434a-a050-cf6e492ef3a4")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ddf5ef-36e6-4b82-b6a2-41cf3a619aa8")
+	)
+	(wire
+		(pts
+			(xy 59.69 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47043f90-d77c-4df0-9cc8-b399e7eb2d5f")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471b91fc-c7d8-4b1d-86e6-38f5c8f36691")
+	)
+	(wire
+		(pts
+			(xy 25.4 57.15) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba81922-b3b7-4a36-b08b-70d23d9463b3")
+	)
+	(wire
+		(pts
+			(xy 25.4 114.3) (xy 34.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c67041d-b60f-4e10-ae28-e17619dabee5")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf80f4e-e23e-46ac-8148-7caf60ac0c7c")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee833df-050d-444e-9766-85e22a7ee286")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5278d1d3-8cff-4231-9337-b84f4248968c")
+	)
+	(wire
+		(pts
+			(xy 25.4 158.75) (xy 38.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567d87ea-b47d-42fb-b1e4-a00d46aa51b0")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620ec801-8898-4939-bf85-61d81aa8e8fe")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c7e1b0-96e2-4b25-9da2-706892f87687")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b04d96-4576-432b-a3ee-90d411387058")
 	)
 	(wire
 		(pts
@@ -428,6 +1237,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac0aa82-915e-4bd1-b7f9-7e3fff83595d")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4fc78e-b84e-4683-8458-b5c8bf6afe33")
+	)
+	(wire
+		(pts
 			(xy 33.02 269.24) (xy 33.02 273.05)
 		)
 		(stroke
@@ -435,6 +1264,16 @@
 			(type default)
 		)
 		(uuid "7e62461a-0f35-404e-9133-35b9348d82b2")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80821b91-62f3-46d1-ba4a-d669991aa22b")
 	)
 	(wire
 		(pts
@@ -448,6 +1287,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a58aa8-5124-4450-8610-d36689a4b240")
+	)
+	(wire
+		(pts
 			(xy 55.88 257.81) (xy 55.88 259.08)
 		)
 		(stroke
@@ -455,6 +1304,106 @@
 			(type default)
 		)
 		(uuid "87ed3294-48a2-44ce-acf5-0d9db3dbb522")
+	)
+	(wire
+		(pts
+			(xy 25.4 184.15) (xy 38.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cee23ab-6b54-4c29-a556-c2116cb9ac47")
+	)
+	(wire
+		(pts
+			(xy 25.4 95.25) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2faaac-2df4-44d9-b7f3-4609f4658e7d")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbad950-58af-4028-98ad-1df2d3c188ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 95.25) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a4e14a-153b-4eaf-b162-38ef92a29285")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96eb7d66-3144-45b0-bdd8-952f74ff0143")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5851d5-4380-4133-9146-d847f25360a7")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a314b8f9-8e18-47f4-902d-10c2137a573c")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46f7c84-61ea-445e-86be-47636b5f20fe")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65a18d7-f02c-43e5-8c9e-9b6115db36c8")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 25.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa46ad25-8e4d-4875-827e-a4ea156fd2a2")
 	)
 	(wire
 		(pts
@@ -468,6 +1417,86 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 114.3) (xy 25.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe1bbb1-087d-4e75-bc3c-7bf1f8eae04b")
+	)
+	(wire
+		(pts
+			(xy 25.4 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd21613-6bc5-44e7-9a63-a0dd5b209178")
+	)
+	(wire
+		(pts
+			(xy 38.1 194.31) (xy 38.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6eb415-b7b0-4053-a1b1-6fa5f5ec8be5")
+	)
+	(wire
+		(pts
+			(xy 57.15 95.25) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c19232-606e-4529-bccd-55778fe6e92f")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d7b261-03ab-4b50-a86e-c261d2cedc4c")
+	)
+	(wire
+		(pts
+			(xy 85.09 114.3) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9c3009-453d-4909-9eb4-bb8826ca4cf1")
+	)
+	(wire
+		(pts
+			(xy 38.1 168.91) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb59bf5-0633-4428-a6d1-51edb41e7e64")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c549286f-fbc7-4ee7-a87b-ad1d8a160af4")
+	)
+	(wire
+		(pts
 			(xy 48.26 269.24) (xy 55.88 269.24)
 		)
 		(stroke
@@ -475,6 +1504,86 @@
 			(type default)
 		)
 		(uuid "cb0e4703-11d5-478e-bbeb-889740229335")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc469547-1dbe-4ca2-9718-8321cdf2f4c1")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2053a3a-3486-4fad-8a1f-32d76c49917a")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90d0ddf-8972-46e9-b459-70ea468c2fe1")
+	)
+	(wire
+		(pts
+			(xy 135.89 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce7b648-da78-493a-af25-6be387418ddc")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3089ff-4393-4e48-b16e-3bda7af3334b")
+	)
+	(wire
+		(pts
+			(xy 25.4 82.55) (xy 25.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06134a0-ac07-4511-b3c0-1d21ee98f752")
+	)
+	(wire
+		(pts
+			(xy 110.49 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e098d894-00c3-45ae-8c38-7c9fa6e90c45")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 38.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a406fa-e56a-495f-a6c9-a7cc73588954")
 	)
 	(wire
 		(pts
@@ -488,6 +1597,66 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 171.45) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88c470d-e345-4936-901b-643f2837d921")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 25.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5217315-bcb7-4f3b-b7cc-bb83fb6e786d")
+	)
+	(wire
+		(pts
+			(xy 25.4 196.85) (xy 38.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cf1c4e-6514-4333-8e06-3ddcd401b900")
+	)
+	(wire
+		(pts
+			(xy 38.1 54.61) (xy 38.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8107e9e-0917-444d-b144-1768df3663e7")
+	)
+	(wire
+		(pts
+			(xy 25.4 95.25) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feee6e80-e683-439f-9c18-37a12b0fd7c6")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff13fdc1-7efe-4631-9176-7c2a4c1873ed")
+	)
+	(wire
+		(pts
 			(xy 33.02 269.24) (xy 48.26 269.24)
 		)
 		(stroke
@@ -495,6 +1664,162 @@
 			(type default)
 		)
 		(uuid "ff662d57-7f3c-4b7f-ad38-7631574cb7f5")
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 38.1 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0372a737-0fd2-4de2-a968-1e693bfc0d9e")
+		(property "Reference" "H24"
+			(at 40.64 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LP/BP"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 40.64 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dae8870-d380-41de-871d-3fb72aaac9da")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 38.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e2136fb-c46d-4a63-b887-1f23069be833")
+		(property "Reference" "H5"
+			(at 40.64 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coarse"
+			(at 40.64 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 40.64 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c652bd4-1e21-45ec-a927-eb6af494289e")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
@@ -558,6 +1883,618 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 38.1 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13405edb-64c2-4cef-9a5c-5fe7f788bd98")
+		(property "Reference" "H26"
+			(at 40.64 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AD/AR"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 38.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 40.64 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5c7e3a6-f4cc-4396-adbe-2bf065eadfd6")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 76.2 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d4e9d5b-2382-44c2-808d-f63cd3196f6a")
+		(property "Reference" "H15"
+			(at 78.74 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Exp FM"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 78.74 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0e29ca5-4e02-4476-ace1-9deab89a930d")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 165.1 127 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2890f14f-7c36-4da4-ab18-ff1c8039a3fb")
+		(property "Reference" "H28"
+			(at 167.64 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Gate"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 167.64 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b694e62f-dac1-46ec-ba03-f891237ee829")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 38.1 77.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce29c3c-687d-4493-9337-60d33e04f236")
+		(property "Reference" "H8"
+			(at 40.64 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM"
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 40.64 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97fb283d-1941-4d7e-bcbb-c91c12fbd782")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 38.1 127 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f6d4203-acc4-46df-a734-ae162c1ffef5")
+		(property "Reference" "H22"
+			(at 40.64 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Out"
+			(at 40.64 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 40.64 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cef6dfe-3310-435c-8711-e3d5c4241025")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 38.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4646418a-c9d1-4721-a834-35d83232419c")
+		(property "Reference" "H23"
+			(at 40.64 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sqr/Saw"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 40.64 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b5af7d1-f0ff-416d-b86d-674d0293de54")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 114.3 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "569d914e-5784-4d31-a97e-81c617f545aa")
+		(property "Reference" "H13"
+			(at 116.84 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Attack"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 116.84 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db2b82ab-714d-4b39-94f3-8299c9ac0fff")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63483d51-51c7-4bb1-a1eb-6650cfd5289f")
+		(property "Reference" "#PWR02"
+			(at 25.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7ca64bd-cd05-4422-89b2-e83f6a811f18")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -630,6 +2567,396 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 114.3 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664ffdc0-b2e7-4eba-af4b-9506e00465de")
+		(property "Reference" "H7"
+			(at 116.84 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Env Amt CV"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 116.84 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d250ae30-22d5-4732-a1f3-00d0dcc27344")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 114.3 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b18208d-1cb9-412e-a527-cab6ce4e7ea6")
+		(property "Reference" "H21"
+			(at 116.84 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 116.84 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb91cf03-df67-4e6b-be3d-c0e04699f58e")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 114.3 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f93246a-d1b3-4abf-8db4-8911fea3cb52")
+		(property "Reference" "H14"
+			(at 116.84 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Decay"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 116.84 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f10ede4-74fb-4fe2-9948-1dbcaed08d70")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 76.2 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b8df5a-f06c-4b91-9c84-7407e375158b")
+		(property "Reference" "H9"
+			(at 78.74 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutoff"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 78.74 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a80bc85-90fb-409e-a6c1-e6f579c62df9")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 76.2 77.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b7f9486-1968-489e-8896-e556ee1d4504")
+		(property "Reference" "H11"
+			(at 78.74 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Resonance"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 78.74 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05bf08da-ee5b-4928-9b0b-e24aaaec9265")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
 		(at 27.94 265.43 0)
 		(unit 1)
@@ -691,6 +3018,630 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23eff55-935e-41cd-b92f-994e7816b261")
+		(property "Reference" "H18"
+			(at 91.44 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Exp FM"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 91.44 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21f8fb10-fbb9-495b-94b5-70cdbd9ba16c")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 165.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b72f30b8-2eb6-4a77-bf0e-1f1d64d70099")
+		(property "Reference" "H20"
+			(at 167.64 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Env Amt"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 167.64 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6fb0de0-266a-457f-b7f6-308d743085b1")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 63.5 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd3a141-2407-4c2a-bae9-5a60e281c1bf")
+		(property "Reference" "H25"
+			(at 66.04 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sync"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 66.04 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f57a0c96-1d8c-474e-ba6d-050935d4fd40")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 38.1 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0a25df0-0050-44a7-a3e2-fae2f0a709db")
+		(property "Reference" "H27"
+			(at 40.64 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Env/Drn"
+			(at 40.64 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 38.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 40.64 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3d12f2e-ae77-4837-8dbd-e283e48820fd")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 38.1 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3499d96-b7cf-4757-823f-8eec0973b2a8")
+		(property "Reference" "H12"
+			(at 40.64 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM CV"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+			(at 38.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 40.64 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b71f5bbf-a486-414d-b66c-95ed3fe3025e")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 76.2 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e59502e8-b2fb-4d81-9068-c94d5a28b42e")
+		(property "Reference" "H10"
+			(at 78.74 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Env Amt"
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 78.74 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d03d1da-c616-4131-8c92-4d612c1184f7")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 114.3 77.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d3105c-617d-4c2e-a627-7230f9b79393")
+		(property "Reference" "H16"
+			(at 116.84 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutoff CV"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 116.84 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d59162b-475e-48e9-a493-3160ef4fbede")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 38.1 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb194d7a-8e3b-4775-8b89-7e4c30462ebe")
+		(property "Reference" "H6"
+			(at 40.64 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fine"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 40.64 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d3d1f13-b8c6-49c2-b38d-6388cbca5806")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -837,6 +3788,162 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 38.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff805e2-8ec9-48d8-89d9-6eb9585f5a29")
+		(property "Reference" "H17"
+			(at 40.64 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V/Oct"
+			(at 40.64 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 40.64 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdaddff3-fdbd-4691-a969-42676b73ccdd")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 139.7 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c00242-bd1d-49ae-ad22-105110399f89")
+		(property "Reference" "H19"
+			(at 142.24 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutoff"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 142.24 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b7d70ed-2fa5-4591-97be-136dee171a99")
+		)
+		(instances
+			(project "DMH_SynthVoice_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H19")
 					(unit 1)
 				)
 			)
