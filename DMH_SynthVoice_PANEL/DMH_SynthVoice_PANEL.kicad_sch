@@ -1684,7 +1684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LP/BP"
+		(property "Value" "AD/AR"
 			(at 40.64 165.1 0)
 			(effects
 				(font
@@ -1907,7 +1907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AD/AR"
+		(property "Value" "LP/BP"
 			(at 40.64 177.8 0)
 			(effects
 				(font
@@ -1985,7 +1985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Exp FM"
+		(property "Value" "Cutoff CV"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -2375,7 +2375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Attack"
+		(property "Value" "Decay"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Env Amt CV"
+		(property "Value" "F.E. Amt CV"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -2741,7 +2741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Decay"
+		(property "Value" "Resonance"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Cutoff"
+		(property "Value" "Attack"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Resonance"
+		(property "Value" "Cutoff"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Env Amt"
+		(property "Value" "F.E. Amt"
 			(at 167.64 114.3 0)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Env/Drn"
+		(property "Value" "A.E +/d/-"
 			(at 40.64 190.5 0)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Env Amt"
+		(property "Value" "F.E. Amt"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small_attv_P110KH1"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -3510,7 +3510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Cutoff CV"
+		(property "Value" "Exp FM CV"
 			(at 116.84 76.2 0)
 			(effects
 				(font
